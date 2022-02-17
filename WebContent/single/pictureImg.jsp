@@ -19,7 +19,7 @@ filename=multi.getFilesystemName("picture");
 <script>
 const img = opener.document.querySelector("#pic")
 img.src="<%=request.getContextPath()%>/upload/<%=filename%>"
-opner.document.f.picture.value="<%=filename%>"
+opener.document.f.picture.value="<%=filename%>"
 self.close();
 
 
